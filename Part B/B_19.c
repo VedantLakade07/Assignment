@@ -13,8 +13,11 @@ int main() {
     for(int i=0;i<n;i++){
         if(i==0){printf("%d ",temp);
         }else{
-        printf("%d ",rotateRight(arr[i],arr[i-1]));
+            int nw=rotateRight(arr[i],arr[i-1]);
+        printf("%d ",nw);
         }
 
-    return 0;
-}}
+    
+}
+return 0;
+}
